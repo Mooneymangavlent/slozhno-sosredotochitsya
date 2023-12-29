@@ -5,15 +5,14 @@
   background-color: var(--background-color);
   font-family: var(--main-text, serif);
   background-attachment: fixed;
+  background-image: var(--background-image);
+  background-position: center center;
+  background-size: cover;
 }
 .header {
   padding-right: 20px;
   padding-top: 20px;
   position: relative;
-  background-image: var(--background-image);
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .header__theme-menu-list {
@@ -135,16 +134,17 @@
 .concept__title-text {
   color: var(--titletextColor);
   background-color: var(--main-color);
+ 
 }
 .concept-text {
   color: var(--text-color);
-  font-weight: 400;
   line-height: 23.4px; /* 130% */
+  font-size: 18px;
 }
 .concept__inner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px 20px;
+  gap: 14px 10px;
   margin-top: 80px;
 }
 .concept-text-link {
@@ -189,8 +189,8 @@
   /* Можно оставить строки на авто и не прописывать, но первый бэк у тайтла будет больше чем нужно! */
   grid-template-rows: 33px 23px auto 23px auto 23px auto 23px auto 23px auto;
   margin-top: 80px;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
 }
 .concept__header-link {
   text-shadow: 2px 2px 0px #ff0070;
@@ -261,6 +261,7 @@
   grid-template-columns: repeat(3, minmax(0, auto));
   grid-template-rows: repeat(3, minmax(0, auto));
   gap: 19px;
+  margin-top: 20px;
   margin-bottom: 60px;
   grid-template-areas:
     "images__grid-sunset images__grid-sunset images__grid-ice"
@@ -297,7 +298,7 @@
 }
 
 .footer-title {
-  margin: 319px 0;
+  margin: 293px 0;
   color: var(--focus-collor);
   font-size: clamp(7.5rem, 6.1638rem + 5.7011vw, 9.8125rem);
   font-weight: 700;
@@ -311,8 +312,8 @@
   height: 25px;
   border-top: 1px solid var(--dicoration-color);
   border-right: 1px solid var(--dicoration-color);
-  right: 20px;
-  top: 20px;
+  right: 18px;
+  top: 11px;
 }
 .decorated-zone-footer::after {
   position: absolute;
