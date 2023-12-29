@@ -134,7 +134,6 @@
 .concept__title-text {
   color: var(--titletextColor);
   background-color: var(--main-color);
- 
 }
 .concept-text {
   color: var(--text-color);
@@ -381,20 +380,18 @@
     border-left: 1px solid var(--dicoration-color);
     left: 21px;
     bottom: 11px;
-}
-  .footer-title{
-font-size: 120px;
-line-height: 82.5%; /* 99px */
-margin: 433px 0;
   }
-
+  .footer-title {
+    font-size: 120px;
+    line-height: 82.5%; /* 99px */
+    margin: 433px 0;
+  }
 }
 @media (max-width: 375px) {
   .concept {
     padding: 10px;
     margin: 0;
     padding: 0;
-
   }
   .header {
     padding: 10px;
@@ -407,8 +404,7 @@ margin: 433px 0;
     margin-top: 66.5px;
     margin-bottom: 0;
     gap: 0;
-    padding-bottom: 90px; 
-    
+    padding-bottom: 90px;
   }
   .concept__grid-container {
     display: flex;
@@ -421,7 +417,6 @@ margin: 433px 0;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 64px;
-    
   }
   .concept__title {
     width: 355px;
@@ -442,40 +437,40 @@ margin: 433px 0;
     bottom: 45px;
     left: 10px;
   }
-  .concept__inner{
+  .concept__inner {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 39px;
+  }
+  .lots {
+    margin-top: 52px;
+    padding: 0 10px;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footer-title {
+    margin-top: 256px;
+    margin-bottom: 287px;
+  }
+  .decorated-zone-footer::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-top: 1px solid var(--dicoration-color);
+    border-right: 1px solid var(--dicoration-color);
+    right: 9px;
+    top: -13px;
+  }
+  .decorated-zone-footer::after {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid var(--dicoration-color);
+    border-left: 1px solid var(--dicoration-color);
+    left: 10px;
+    bottom: 8px;
+  }
 }
-.lots{
-  margin-top: 52px;
-  padding: 0 10px;
-}
-.footer{
-  padding: 0;
-}
-.footer-title{
-  margin-top: 256px;
-  margin-bottom: 287px;
-}
-.decorated-zone-footer::before {
-  position: absolute;
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-top: 1px solid var(--dicoration-color);
-  border-right: 1px solid var(--dicoration-color);
-  right: 9px;
-  top: -13px;
-}
-.decorated-zone-footer::after {
-  position: absolute;
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-bottom: 1px solid var(--dicoration-color);
-  border-left: 1px solid var(--dicoration-color);
-  left: 10px;
-  bottom: 8px;
-}
- }
