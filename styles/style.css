@@ -4,6 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--background-color);
   font-family: var(--main-text, serif);
+  background-attachment: fixed;
 }
 .header {
   padding-right: 20px;
