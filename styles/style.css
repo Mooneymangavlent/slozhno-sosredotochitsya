@@ -13,6 +13,7 @@
   padding-right: 20px;
   padding-top: 20px;
   position: relative;
+  height: 100vh;
 }
 
 .header__theme-menu-list {
@@ -448,6 +449,7 @@
   }
   .footer {
     padding: 0;
+    height: 100vh;
   }
   .footer-title {
     margin-top: 256px;
