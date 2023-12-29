@@ -1,34 +1,31 @@
-
 .page.theme_light {
-  --title-color: #FFC2E6;
-  --main-color: #FF8DCB;
-  --main-text: 'IBM Plex mono';
+  --title-color: #ffc2e6;
+  --main-color: #ff8dcb;
+  --main-text: "IBM Plex mono";
   --text-color: #353430;
   --titletextColor: #353430;
-  --background-color: #FFF1F7;
+  --background-color: #fff1f7;
   --background-image: url(../images/cover-image-light.png);
-  --dicoration-color:#353430;
-  --focus-collor:#FFC2E6;
+  --dicoration-color: #353430;
+  --focus-collor: #ffc2e6;
   .decoration-element {
-    display: none;  
+    display: none;
   }
 }
 
 @media (prefers-color-scheme: light) {
-  
-  :root{
-    --background-color:#FFF1F7;
-    --title-color: #FFC2E6;
-    --main-color: #FF8DCB;
-    --main-text: 'IBM Plex mono';
+  :root {
+    --background-color: #fff1f7;
+    --title-color: #ffc2e6;
+    --main-color: #ff8dcb;
+    --main-text: "IBM Plex mono";
     --text-color: #353430;
     --titletextColor: #353430;
     --background-image: url(../images/cover-image-light.png);
-    --dicoration-color:#353430;
-    --focus-collor:#FFC2E6;
-   
+    --dicoration-color: #353430;
+    --focus-collor: #ffc2e6;
   }
-  .decoration-element  {
-    display: none ; 
+  .decoration-element {
+    display: none;
   }
 }

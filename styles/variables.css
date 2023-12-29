@@ -1,13 +1,11 @@
-
 :root {
-  --title-color: #DB00FF;
-  --main-color: #FF0070;
-  --main-text: 'IBM Plex mono';
-  --text-color: #F1B2CE;
+  --title-color: #db00ff;
+  --main-color: #ff0070;
+  --main-text: "IBM Plex mono";
+  --text-color: #f1b2ce;
   --titletextColor: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --dicoration-color:#FF0070;
-  --focus-collor:#DB00FF;
-  
+  --dicoration-color: #ff0070;
+  --focus-collor: #db00ff;
 }
