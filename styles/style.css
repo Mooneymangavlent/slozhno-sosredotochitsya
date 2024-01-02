@@ -257,12 +257,10 @@
   .header-text {
     margin: 0;
     align-self: center;
+    max-width: 364px;
   }
   .header-title {
     font-size: 120px;
-  }
-  .header-text {
-    max-width: 364px;
   }
   .concept__grid-container {
     grid-column-gap: 20px;
