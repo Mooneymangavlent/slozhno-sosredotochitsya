@@ -8,6 +8,7 @@
   --background-image: url(../images/cover-image-light.png);
   --dicoration-color: #353430;
   --focus-collor: #ffc2e6;
+  --link-collor: #ff8dcb;
   .decoration-element {
     display: none;
   }
@@ -15,6 +16,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --link-collor: #ff8dcb;
     --background-color: #fff1f7;
     --title-color: #ffc2e6;
     --main-color: #ff8dcb;
