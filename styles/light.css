@@ -9,7 +9,10 @@
   --dicoration-color: #353430;
   --focus-collor: #ffc2e6;
   --link-collor: #ff8dcb;
-  --hover: rgba(50, 49, 45, 0.40);
+  --hover: rgba(50, 49, 45, 0.4);
+}
+.decoration-element {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {

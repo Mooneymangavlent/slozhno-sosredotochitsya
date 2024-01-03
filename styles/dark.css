@@ -11,3 +11,10 @@
   --link-collor: #ff0070;
   --hover: rgba(255, 0, 112, 0.40);
 }
+.theme_dark .decoration-element {
+  display: block;
+}
+
+.decoration-element {
+  display: block;
+}
