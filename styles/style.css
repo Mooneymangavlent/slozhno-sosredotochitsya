@@ -157,7 +157,7 @@
   font-size: 18px;
   margin-top: 10px;
 }
-.concept-text-box{
+.concept-text-box {
   color: var(--text-color);
   line-height: 23.4px; /* 130% */
   font-size: 18px;
@@ -326,10 +326,10 @@
   .header__theme-menu-list {
     gap: 10px 10px;
   }
-  .concept-text-box{
+  .concept-text-box {
     margin-top: 0;
   }
-  .concept-text{
+  .concept-text {
     margin-top: 11px;
   }
   .decorated-zone::before {
