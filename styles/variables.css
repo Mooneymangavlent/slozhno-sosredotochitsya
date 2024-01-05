@@ -1,7 +1,7 @@
 :root {
   --title-color: #db00ff;
   --main-color: #ff0070;
-  --main-text: "IBM Plex mono";
+  --main-text: 'IBM Plex mono';
   --text-color: #f1b2ce;
   --titletextColor: #000028;
   --background-image: url(../images/cover-image-dark.png);
@@ -9,8 +9,9 @@
   --dicoration-color: #ff0070;
   --focus-collor: #db00ff;
   --link-collor: #ff0070;
-  --hover: rgba(255, 0, 112, 0.4);
+  --hover: rgb(255 0 112 / 0.4);
 }
+
 .theme_light .decoration-element {
   display: none;
 }
