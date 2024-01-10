@@ -303,7 +303,7 @@
   text-shadow: 2px 2px 0 #ff0070;
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1023px) {
 
   .header-title {
     font-size: 120px;
