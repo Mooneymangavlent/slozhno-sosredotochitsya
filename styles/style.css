@@ -32,7 +32,7 @@
 .header__theme-menu-button {
   background-color: inherit;
   border: none;
-  color: var(--dicoration-color);
+  color: var(--decoration-color);
   display: inline-flex;
   height: 26px;
   padding: 0 13px;
@@ -46,13 +46,13 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--dicoration-color);
+  border: 1px solid var(--decoration-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:focus {
   outline: none;
-  border-bottom: 1px solid var(--dicoration-color);
+  border-bottom: 1px solid var(--decoration-color);
 }
 
 .header__theme-menu-button:hover {
@@ -88,8 +88,8 @@
   content: '';
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--dicoration-color);
-  border-right: 1px solid var(--dicoration-color);
+  border-top: 1px solid var(--decoration-color);
+  border-right: 1px solid var(--decoration-color);
   right: 19px;
   top: 19px;
 }
@@ -99,14 +99,14 @@
   content: '';
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--dicoration-color);
-  border-left: 1px solid var(--dicoration-color);
+  border-bottom: 1px solid var(--decoration-color);
+  border-left: 1px solid var(--decoration-color);
   bottom: 19px;
   left: 19px;
 }
 
 .header-title {
-  color: var(--focus-collor);
+  color: var(--focus-color);
   text-shadow: 4px 4px 0 #ff0070;
   font-size: clamp(7.5rem, 6.1638rem + 5.7011vw, 9.8125rem);
   font-weight: 700;
@@ -146,7 +146,7 @@
 }
 
 .concept__title {
-  color: var(--dicoration-color);
+  color: var(--decoration-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px; /* 130% */
@@ -196,7 +196,7 @@
 }
 
 .link {
-  text-shadow: 2px 2px 0 var(--link-collor);
+  text-shadow: 2px 2px 0 var(--link-color);
   text-decoration: none;
 }
 
@@ -296,14 +296,14 @@
 }
 
 .footer-title {
-  color: var(--focus-collor);
+  color: var(--focus-color);
   font-size: clamp(7.5rem, 6.1638rem + 5.7011vw, 9.8125rem);
   font-weight: 700;
   line-height: 82.5%;
   text-shadow: 2px 2px 0 #ff0070;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1027px) {
 
   .header-title {
     font-size: 120px;
@@ -346,7 +346,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
 
   .header {
     padding: 10px;
